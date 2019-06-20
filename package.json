@@ -10,6 +10,7 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "@vue/cli-init": "^3.8.0",
     "bootstrap-vue": "^2.0.0-rc.24",
     "core-js": "^2.6.5",
     "datatables.net": "^1.10.19",
