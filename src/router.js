@@ -5,8 +5,6 @@ import Residents from './views/Residents.vue'
 import Devices from './views/Devices.vue'
 import Settings from './views/Settings.vue'
 
-
-
 Vue.use(Router)
 
 export default new Router({
