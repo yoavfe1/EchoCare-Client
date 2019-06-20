@@ -19,7 +19,7 @@
             <td>{{ props.item.checkin }}</td>
             <td>{{ props.item.visitors }}</td>
             <td>
-              <span v-for="alert in props.item.alerts">
+              <span v-for="alert in props.item.alerts" v-bind:key="alert.id">
                 <v-chip v-bind:color="getAlertBackground(alert)" text-color="white">
                   <v-avatar>
                     <v-icon>{{getAlertIcon(alert)}}</v-icon>
